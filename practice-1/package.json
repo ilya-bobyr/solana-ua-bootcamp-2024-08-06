@@ -1,0 +1,6 @@
+{
+  "name": "practice-1",
+  "scripts": {
+    "start": "npx esrun index.ts"
+  }
+}
