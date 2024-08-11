@@ -1,0 +1,19 @@
+{
+  "name": "solana-ua-bootcamp-2024-08-06",
+  "scripts": {
+    "start": "npx esrun index.ts"
+  },
+  "workspaces": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4"
+  ],
+  "dependencies": {
+    "@solana-developers/helpers": "^2.4.0",
+    "@solana/web3.js": "^1.95.2",
+    "dotenv": "^16.4.5",
+    "esrun": "^3.2.26"
+  },
+  "packageManager": "yarn@3.6.1"
+}
