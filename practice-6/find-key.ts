@@ -1,6 +1,6 @@
 import { Keypair } from "@solana/web3.js";
 
-const desiredPrefix = "kolya";
+const desiredPrefix = "md";
 let keypair;
 let found = false;
 
@@ -10,9 +10,13 @@ while (!found) {
 
     if (publicKey.startsWith(desiredPrefix)) {
         found = true;
+        console.log('=============================');
+        console.log(desiredPrefix);
+        console.log('^^^^^ Used initials(md stands for mykola dzoban) to run script');
         console.log('Found matching keypair!');
         console.log('Generated public key: ', publicKey);
         console.log('Generated secret key: ', keypair.secretKey);
+        console.log('=============================');
     }
 }
 
