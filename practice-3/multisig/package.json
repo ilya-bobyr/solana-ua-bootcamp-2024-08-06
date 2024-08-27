@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@solana-developers/helpers": "2.3.0",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.2",
+    "bigint-buffer": "^1.1.5",
+    "bs58": "^6.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "esrun": "^3.2.26"
+  },
+  "name": "solana-training",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {}
+}
